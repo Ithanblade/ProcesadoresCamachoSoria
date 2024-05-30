@@ -20,7 +20,7 @@ public class Procesadores_Moviles extends Procesadores{
         this.optimizacion_energia = optimizacion_energia;
     }
 
-    void imprimir_datos_movil(){
+     public void imprimir_datos_movil(){
         System.out.println(this.optimizacion_energia);
     }
 }
