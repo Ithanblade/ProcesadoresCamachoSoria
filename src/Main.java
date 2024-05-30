@@ -1,5 +1,8 @@
+import Procesadores.Procesadores;
+
 public class Main {
     public static void main(String[] args) {
-        // Prueba Richard
+
+        Procesadores p1 = new Procesadores();
     }
 }
