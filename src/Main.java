@@ -1,7 +1,6 @@
 import Procesadores.Procesadores;
 import Procesadores.Procesadores_Moviles;
 import Procesadores.Procesadores_Intel;
-import Procesadores.Procesadores_AMD;
 public class Main {
     public static void main(String[] args) {
 
@@ -17,10 +16,10 @@ public class Main {
 
         Procesadores_Intel proc4 = new Procesadores_Intel(24,"Intel® Core™ i9 14900K", 6.0, 125.0, "LGA", true);
 
-        // Procesadores AMD
+    //Instancias Intel Integrante 1
 
-        Procesadores_AMD proc7 = new Procesadores_AMD(12, "AMD Ryzen™ 9 5900X", 3.7, 105.0, "AM4",true);
-        Procesadores_AMD proc8 = new Procesadores_AMD(8, "AMD Ryzen™ 7 PRO 8700GE", 3.6, 35.0 ,"AM5", true);
+        Procesadores_Intel proc5 = new Procesadores_Intel(8,"Intel® Core™ i5-1135G7",4.20,28.0,"BGA",true);
+        Procesadores_Intel proc6 = new Procesadores_Intel(12,"Intel® Core™ i7-1255U",4.70,328.0,"BGA",false);
 
 
     }
