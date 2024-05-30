@@ -16,6 +16,11 @@ public class Main {
 
         Procesadores_Intel proc4 = new Procesadores_Intel(24,"Intel® Core™ i9 14900K", 6.0, 125.0, "LGA", true);
 
+    //Instancias Intel Integrante 1
+
+        Procesadores_Intel proc5 = new Procesadores_Intel(8,"Intel® Core™ i5-1135G7",4.20,28.0,"BGA",true);
+        Procesadores_Intel proc6 = new Procesadores_Intel(12,"Intel® Core™ i7-1255U",4.70,328.0,"BGA",false);
+
 
     }
 }
