@@ -27,6 +27,6 @@ public class Main {
         Procesadores_AMD proc7 = new Procesadores_AMD(12, "AMD Ryzen™ 9 5900X", 3.7, 105.0, "AM4",true);
         Procesadores_AMD proc8 = new Procesadores_AMD(8, "AMD Ryzen™ 7 PRO 8700GE", 3.6, 35.0 ,"AM5", true);
 
-        // No ip domain lockup
+
     }
 }
