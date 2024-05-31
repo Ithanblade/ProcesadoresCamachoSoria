@@ -28,5 +28,14 @@ public class Main {
         Procesadores_AMD proc8 = new Procesadores_AMD(8, "AMD Ryzen™ 7 PRO 8700GE", 3.6, 35.0 ,"AM5", true);
 
         // No ip domain lockup
+
+        Procesadores proc9 = new Procesadores();
+        proc9.imprimir_datos();
+
+        Procesadores_Moviles proc10 = new Procesadores_Moviles();
+        proc10.imprimir_datos();
+
+        Procesadores_AMD proc11 = new Procesadores_AMD();
+        proc11.imprimir_datos();
     }
 }

@@ -25,4 +25,12 @@ public class Procesadores_Intel extends Procesadores_Escritorio
     {
         System.out.println(this.tarjeta_video);
     }
+
+
+    @Override
+    public void imprimir_datos(){
+        System.out.println("Computadora INTEL");
+    }
+
+
 }

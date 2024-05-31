@@ -50,6 +50,7 @@ public class Procesadores {
 
 //Metodos Personalizados
     public void imprimir_datos() {
+        System.out.println("Esta es la clse principal en el primer nivel");
         System.out.println("Nucleos: " + nucleos);
         System.out.println("Consumo: " + consumo);
         System.out.println("Velocidad: " + velocidad);

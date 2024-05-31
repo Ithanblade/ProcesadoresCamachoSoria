@@ -23,4 +23,11 @@ public class Procesadores_Moviles extends Procesadores{
      public void imprimir_datos_movil(){
         System.out.println(this.optimizacion_energia);
     }
+
+    @Override
+    public void imprimir_datos(){
+        System.out.println("Procesador móvil");
+    }
+
+
 }

@@ -26,4 +26,9 @@ public class Procesadores_AMD extends Procesadores_Escritorio {
         System.out.println(this.sensor_temperatura);
     }
 
+    @Override
+    public void imprimir_datos(){
+        System.out.println("Clase hija AMD");
+    }
+
 }
